@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".SingInActivity2">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/logo"
+        android:backgroundTint="#fff" />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/botao_edit"
+        android:hint="User Name"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:drawableRight="@drawable/ic_baseline_account"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/botao_edit"
+        android:hint="Password"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:drawableRight="@drawable/ic_baseline_key"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="125dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="9dp"
+            android:layout_gravity="center"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Remember Password"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/botao_redondo"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Forget Passwword?"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="90dp"
+        android:gravity="right"
+        android:text="Don't have account?"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:text="Sign Up"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnSetaSignUp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_baseline_arrow" />
+
+
+    </LinearLayout>
+</LinearLayout>

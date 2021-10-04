@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome Back"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="#BFC2C3F9"
+        tools:text="@tools:sample/lorem/random" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:backgroundTint="#fff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="COMPANY NAME"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="SOLOGAN HERE"
+        android:textColor="#BFC2C3F9"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/botao_redondo"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/botao_redondo"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Sign in with Social Media"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginRight="125dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/face"
+            android:backgroundTint="#fff"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/twitter"
+            android:backgroundTint="#fff"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/linked"
+            android:backgroundTint="#fff"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
